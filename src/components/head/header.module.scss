@@ -1,0 +1,29 @@
+$lineHight: 60px;
+
+.header{
+    position: fixed;
+    width: 100vw;
+    height: $lineHight;
+    border: 1px solid #000;
+    nav{
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 40px;
+            margin-right: 64px;
+            li{
+                list-style: none;
+                // border: 1px solid #000;
+                a{
+                    display: block;
+                    text-decoration: none;
+                    line-height: $lineHight;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
